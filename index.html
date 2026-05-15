@@ -327,7 +327,7 @@
 <!-- PROBLEM / SOLUTION -->
 <section style="background:#F0F2F5;">
   <div class="section-header">
-    <h2>Optimizing the phone call entry point with AI</h2>
+    <h2>Bridge the AI Scaling Gap with Ascent Mission Assurance</h2>
     <p>Instead of simply selecting a number, we understand customer requirements through conversation — automating the initial phone call with AI while utilizing your existing PBX systems.</p>
   </div>
   <div class="prob-sol-wrap">
@@ -335,42 +335,80 @@
     <div class="panel panel-white">
       <div class="panel-title">Challenges of traditional call handling</div>
       <div class="panel-illus">
-        <svg width="380" height="180" viewBox="0 0 380 180" fill="none">
-          <!-- Frustrated caller left -->
-          <circle cx="65" cy="75" r="24" fill="#FDE68A"/>
-          <circle cx="57" cy="70" r="3" fill="#1E293B"/>
-          <circle cx="73" cy="70" r="3" fill="#1E293B"/>
-          <path d="M59 82 Q65 78 71 82" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
-          <rect x="40" y="98" width="50" height="60" rx="10" fill="#1E293B"/>
-          <!-- Phone to ear -->
-          <rect x="77" y="65" width="16" height="24" rx="5" fill="#374151"/>
-          <!-- Question marks -->
-          <text x="88" y="52" font-family="Arial" font-size="14" fill="#F59E0B" font-weight="800">?</text>
-          <text x="98" y="42" font-family="Arial" font-size="11" fill="#F59E0B">?</text>
-          <!-- 1, 2 floating -->
-          <circle cx="104" cy="58" r="10" fill="#4F46E5" opacity="0.2"/>
-          <text x="100" y="63" font-family="Arial" font-size="11" fill="#4F46E5" font-weight="700">1,2</text>
-          <!-- Dotted line to center -->
-          <line x1="115" y1="90" x2="175" y2="90" stroke="#94A3B8" stroke-dasharray="5,4" stroke-width="2"/>
-          <!-- Big X center -->
-          <circle cx="190" cy="90" r="32" fill="#FEE2E2"/>
-          <line x1="174" y1="74" x2="206" y2="106" stroke="#EF4444" stroke-width="5" stroke-linecap="round"/>
-          <line x1="206" y1="74" x2="174" y2="106" stroke="#EF4444" stroke-width="5" stroke-linecap="round"/>
-          <!-- Dotted line to operator -->
-          <line x1="223" y1="90" x2="283" y2="90" stroke="#94A3B8" stroke-dasharray="5,4" stroke-width="2"/>
-          <!-- Overwhelmed operator right -->
-          <circle cx="315" cy="65" r="24" fill="#FDE68A"/>
-          <circle cx="307" cy="61" r="3" fill="#1E293B"/>
-          <circle cx="323" cy="61" r="3" fill="#1E293B"/>
-          <!-- Head in hands -->
-          <path d="M299 72 Q315 68 331 72" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-          <rect x="290" y="88" width="50" height="60" rx="10" fill="#1E293B"/>
-          <!-- Desk -->
-          <rect x="283" y="148" width="64" height="6" rx="3" fill="#94A3B8"/>
-          <!-- Down chart -->
-          <rect x="347" y="78" width="8" height="30" rx="2" fill="#EF4444" opacity="0.5"/>
-          <rect x="358" y="88" width="8" height="20" rx="2" fill="#EF4444" opacity="0.5"/>
-          <rect x="369" y="98" width="8" height="10" rx="2" fill="#EF4444" opacity="0.5"/>
+        <svg width="420" height="230" viewBox="0 0 420 230" fill="none">
+          <defs>
+            <marker id="da1" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#94A3B8"/></marker>
+            <marker id="da2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><polygon points="0 0,8 4,0 8" fill="#34D399"/></marker>
+          </defs>
+
+          <!-- LEFT SUB-BOX: Frustrated caller -->
+          <rect x="6" y="10" width="148" height="200" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+          <!-- Thought bubble chain -->
+          <circle cx="102" cy="52" r="4.5" fill="#DDE3F4"/>
+          <circle cx="90" cy="40" r="7" fill="#DDE3F4"/>
+          <!-- Thought cloud -->
+          <ellipse cx="65" cy="26" rx="28" ry="20" fill="#EEF0FF" stroke="#C7D2FE" stroke-width="1.5"/>
+          <text x="53" y="22" font-family="Arial" font-size="11" fill="#64748B" font-weight="700">? ? ?</text>
+          <text x="53" y="38" font-family="Arial" font-size="11" fill="#4F46E5" font-weight="800">1, 2</text>
+
+          <!-- Body (dark navy) -->
+          <rect x="40" y="148" width="68" height="56" rx="12" fill="#1E293B"/>
+          <!-- Collar/neck -->
+          <rect x="57" y="139" width="26" height="14" rx="5" fill="#E8B89A"/>
+          <!-- Head -->
+          <ellipse cx="70" cy="118" rx="28" ry="30" fill="#E8B89A"/>
+          <!-- Hair -->
+          <path d="M42 112 Q42 88 70 86 Q98 88 98 110 Q98 94 88 86 Q79 82 70 82 Q61 82 52 86 Q42 94 42 112 Z" fill="#1E293B"/>
+          <!-- Furrowed eyebrows -->
+          <path d="M57 110 Q62 107 67 109" stroke="#1E293B" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M73 109 Q78 107 83 110" stroke="#1E293B" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <!-- Worried eyes -->
+          <ellipse cx="62" cy="116" rx="4" ry="4.5" fill="#1E293B"/>
+          <ellipse cx="78" cy="116" rx="4" ry="4.5" fill="#1E293B"/>
+          <!-- Frown -->
+          <path d="M60 130 Q70 125 80 130" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <!-- Phone held to right ear -->
+          <rect x="91" y="108" width="14" height="24" rx="5" fill="#374151"/>
+          <!-- Right arm up holding phone -->
+          <path d="M106 152 C112 134 108 120 98 110" stroke="#E8B89A" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+          <!-- Dotted arrow caller → X -->
+          <path d="M154 120 L188 120" stroke="#94A3B8" stroke-dasharray="5,4" stroke-width="2" marker-end="url(#da1)"/>
+
+          <!-- BIG X (center) -->
+          <circle cx="210" cy="120" r="36" fill="#DCFCE7"/>
+          <line x1="192" y1="102" x2="228" y2="138" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+          <line x1="228" y1="102" x2="192" y2="138" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+
+          <!-- Dotted arrow X → operator -->
+          <path d="M246 120 L266 120" stroke="#94A3B8" stroke-dasharray="5,4" stroke-width="2" marker-end="url(#da1)"/>
+
+          <!-- RIGHT SUB-BOX: Overwhelmed operator -->
+          <rect x="268" y="10" width="148" height="200" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+          <!-- Declining bar chart (background) -->
+          <rect x="334" y="30" width="15" height="60" rx="3" fill="#CBD5E1"/>
+          <rect x="353" y="45" width="15" height="45" rx="3" fill="#CBD5E1"/>
+          <rect x="372" y="58" width="15" height="32" rx="3" fill="#CBD5E1"/>
+          <rect x="391" y="70" width="15" height="20" rx="3" fill="#CBD5E1"/>
+          <!-- Descending arrow -->
+          <path d="M340 33 Q368 36 400 70" stroke="#34D399" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#da2)"/>
+
+          <!-- Desk surface -->
+          <rect x="278" y="185" width="128" height="10" rx="4" fill="#CBD5E1"/>
+          <!-- Operator body (hunched) -->
+          <rect x="298" y="148" width="60" height="38" rx="11" fill="#1E293B"/>
+          <!-- Head (bowed down, we see top) -->
+          <ellipse cx="328" cy="135" rx="26" ry="22" fill="#E8B89A"/>
+          <!-- Hair on bowed head -->
+          <path d="M302 130 Q302 113 328 111 Q354 113 354 128" fill="#1E293B"/>
+          <!-- Arms spread on desk -->
+          <path d="M284 183 Q300 168 316 175" stroke="#1E293B" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <path d="M372 183 Q356 168 340 175" stroke="#1E293B" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <!-- Hands holding head -->
+          <path d="M308 132 Q313 128 320 130" stroke="#E8B89A" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M348 132 Q343 128 336 130" stroke="#E8B89A" stroke-width="5" fill="none" stroke-linecap="round"/>
         </svg>
       </div>
       <ul class="panel-bullets">
@@ -396,42 +434,91 @@
     <div class="panel panel-indigo">
       <div class="panel-title">With Ascent Mission Assurance</div>
       <div class="panel-illus-indigo">
-        <svg width="380" height="180" viewBox="0 0 380 180" fill="none">
-          <!-- Relaxed caller left -->
-          <circle cx="60" cy="70" r="24" fill="#FDE68A"/>
-          <circle cx="52" cy="66" r="3" fill="#1E293B"/>
-          <circle cx="68" cy="66" r="3" fill="#1E293B"/>
-          <path d="M53 78 Q60 84 67 78" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
-          <rect x="35" y="93" width="50" height="58" rx="10" fill="#1E293B"/>
-          <!-- Phone -->
-          <rect x="72" y="60" width="14" height="22" rx="4" fill="#374151"/>
-          <!-- Speech bubble: Natural Language -->
-          <rect x="78" y="36" width="86" height="22" rx="8" fill="#34D399"/>
-          <path d="M88 58 L84 66 L94 58" fill="#34D399"/>
-          <text x="83" y="51" font-family="Arial" font-size="9.5" fill="#FFFFFF" font-weight="700">Natural Language</text>
-          <!-- Curved green arrow to center -->
-          <path d="M118 85 Q148 60 172 85" stroke="#34D399" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#arr)"/>
-          <!-- Ascent AI node center -->
-          <rect x="168" y="68" width="90" height="50" rx="14" fill="#FFFFFF"/>
-          <text x="213" y="88" font-family="Arial" font-size="9" fill="#4F46E5" font-weight="800" text-anchor="middle">ASCENT</text>
-          <text x="213" y="101" font-family="Arial" font-size="7.5" fill="#64748B" text-anchor="middle">MISSION ASSURANCE</text>
-          <!-- Waveform in card -->
-          <path d="M175 108 Q178 104 181 108 Q184 112 187 108 Q190 104 193 108 Q196 104 199 108 Q202 112 205 108 Q208 104 211 108 Q214 104 217 108 Q220 112 223 108 Q226 104 229 108 Q232 112 235 108 Q238 104 241 108 Q244 104 247 108 Q250 112 253 108 Q256 104 259 108" stroke="#4F46E5" stroke-width="1.5" fill="none" opacity="0.5"/>
-          <!-- Curved green arrow to agent -->
-          <path d="M258 85 Q282 60 308 85" stroke="#34D399" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#arr)"/>
-          <defs><marker id="arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><polygon points="0 0, 7 3.5, 0 7" fill="#34D399"/></marker></defs>
-          <!-- Smiling agent right -->
-          <circle cx="325" cy="65" r="24" fill="#FDE68A"/>
-          <circle cx="317" cy="61" r="3" fill="#1E293B"/>
-          <circle cx="333" cy="61" r="3" fill="#1E293B"/>
-          <path d="M317 74 Q325 80 333 74" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
-          <rect x="300" y="88" width="50" height="58" rx="10" fill="#1E293B"/>
-          <!-- Checklist card -->
-          <rect x="338" y="95" width="36" height="44" rx="6" fill="#FFFFFF"/>
-          <line x1="342" y1="105" x2="370" y2="105" stroke="#E2E8F0" stroke-width="1.5"/>
-          <line x1="342" y1="113" x2="370" y2="113" stroke="#E2E8F0" stroke-width="1.5"/>
-          <line x1="342" y1="121" x2="370" y2="121" stroke="#E2E8F0" stroke-width="1.5"/>
-          <path d="M342 103 L344 105 L348 101" stroke="#34D399" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <svg width="420" height="230" viewBox="0 0 420 230" fill="none">
+          <defs>
+            <marker id="garr1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><polygon points="0 0,8 4,0 8" fill="#34D399"/></marker>
+          </defs>
+
+          <!-- LEFT SUB-BOX: Happy caller -->
+          <rect x="6" y="10" width="158" height="210" rx="16" fill="#DDE3F8" stroke="#C7D2FE" stroke-width="1.5"/>
+
+          <!-- Body (dark navy) -->
+          <rect x="44" y="152" width="68" height="60" rx="12" fill="#1E293B"/>
+          <!-- Neck -->
+          <rect x="61" y="143" width="26" height="14" rx="5" fill="#E8B89A"/>
+          <!-- Head -->
+          <ellipse cx="74" cy="122" rx="28" ry="30" fill="#E8B89A"/>
+          <!-- Hair -->
+          <path d="M46 116 Q46 92 74 90 Q102 92 102 114 Q102 98 92 90 Q83 86 74 86 Q65 86 56 90 Q46 98 46 116 Z" fill="#1E293B"/>
+          <!-- Happy eyes -->
+          <ellipse cx="65" cy="120" rx="4" ry="4.5" fill="#1E293B"/>
+          <ellipse cx="83" cy="120" rx="4" ry="4.5" fill="#1E293B"/>
+          <!-- Smile -->
+          <path d="M62 134 Q74 142 86 134" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <!-- Phone at right ear -->
+          <rect x="95" y="112" width="14" height="24" rx="5" fill="#374151"/>
+          <!-- Right arm up -->
+          <path d="M109 156 C115 138 111 124 102 114" stroke="#E8B89A" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+          <!-- "Natural Language" speech bubble (above, overlapping top) -->
+          <rect x="84" y="32" width="130" height="56" rx="12" fill="#34D399"/>
+          <path d="M100 88 L93 104 L113 88" fill="#34D399"/>
+          <!-- Waveform in bubble -->
+          <path d="M92 52 Q95 46 98 52 Q101 58 104 52 Q107 46 110 52 Q113 58 116 52 Q119 46 122 52 Q125 58 128 52 Q131 46 134 52 Q137 58 140 52 Q143 46 146 52 Q149 58 152 52 Q155 46 158 52 Q161 58 164 52 Q167 46 170 52 Q173 58 176 52 Q179 46 182 52 Q185 58 188 52 Q191 46 194 52 Q197 58 200 52 Q203 46 206 52" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.9"/>
+          <text x="149" y="78" font-family="Arial" font-size="11" fill="#FFFFFF" font-weight="800" text-anchor="middle">Natural Language</text>
+
+          <!-- Curved green arrow → Ascent card -->
+          <path d="M168 110 Q196 90 216 104" stroke="#34D399" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#garr1)"/>
+
+          <!-- ASCENT MISSION ASSURANCE card (top right) -->
+          <rect x="220" y="14" width="194" height="88" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+          <!-- Logo tile -->
+          <rect x="234" y="30" width="44" height="44" rx="10" fill="#EEF0FF"/>
+          <path d="M242 54 Q245 48 248 54 Q251 60 254 54 Q257 48 260 54 Q263 60 266 54 Q269 48 272 54" stroke="#4F46E5" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <circle cx="242" cy="54" r="3" fill="#2563EB"/>
+          <circle cx="272" cy="54" r="3" fill="#2563EB"/>
+          <path d="M242 54 C242 46 248 42 257 42 Q260 42 263 44" stroke="#4F46E5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <path d="M272 54 C272 46 266 42 257 42 Q254 42 251 44" stroke="#4F46E5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <!-- Card text -->
+          <text x="288" y="50" font-family="Arial" font-size="13" fill="#0F172A" font-weight="800">Ascent</text>
+          <text x="288" y="66" font-family="Arial" font-size="11" fill="#64748B">Mission</text>
+          <text x="288" y="80" font-family="Arial" font-size="11" fill="#64748B">Assurance</text>
+
+          <!-- Curved green arrow → Agent box -->
+          <path d="M317 102 Q317 118 317 134" stroke="#34D399" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#garr1)"/>
+
+          <!-- AGENT SUB-BOX (bottom right) -->
+          <rect x="220" y="138" width="194" height="102" rx="14" fill="#DDE3F8" stroke="#C7D2FE" stroke-width="1.5"/>
+          <!-- Agent body -->
+          <rect x="254" y="195" width="58" height="40" rx="10" fill="#1E293B"/>
+          <!-- Neck -->
+          <rect x="270" y="186" width="24" height="13" rx="5" fill="#E8B89A"/>
+          <!-- Head -->
+          <ellipse cx="282" cy="168" rx="26" ry="26" fill="#E8B89A"/>
+          <!-- Hair (bun - female) -->
+          <path d="M256 164 Q256 142 282 140 Q308 142 308 162" fill="#1E293B"/>
+          <ellipse cx="282" cy="141" rx="12" ry="10" fill="#1E293B"/>
+          <!-- Happy eyes -->
+          <ellipse cx="273" cy="167" rx="3.5" ry="4" fill="#1E293B"/>
+          <ellipse cx="291" cy="167" rx="3.5" ry="4" fill="#1E293B"/>
+          <!-- Smile -->
+          <path d="M272 179 Q282 186 292 179" stroke="#1E293B" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <!-- Clipboard held -->
+          <rect x="303" y="172" width="44" height="58" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+          <rect x="315" y="165" width="20" height="12" rx="4" fill="#CBD5E1"/>
+          <!-- Check item 1 -->
+          <circle cx="314" cy="190" r="6" fill="#34D399"/>
+          <path d="M311 190 L313 193 L318 187" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <line x1="324" y1="190" x2="340" y2="190" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Check item 2 -->
+          <circle cx="314" cy="204" r="6" fill="#34D399"/>
+          <path d="M311 204 L313 207 L318 201" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <line x1="324" y1="204" x2="340" y2="204" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Check item 3 (pending) -->
+          <circle cx="314" cy="218" r="6" fill="#E2E8F0"/>
+          <line x1="324" y1="218" x2="340" y2="218" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Agent arm holding clipboard -->
+          <path d="M306 198 C304 190 305 184 308 178" stroke="#1E293B" stroke-width="8" fill="none" stroke-linecap="round"/>
         </svg>
       </div>
       <ul class="panel-bullets">
